@@ -1,1 +1,512 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centro Tecnológico Eduvale</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<!-- NAVBAR -->
+<nav>
+  <a href="#home" class="nav-logo">
+    <div class="logo-mark">E</div>
+    <span>Centro Tecnológico<br><em>Eduvale</em></span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#institucional">Institucional</a></li>
+    <li><a href="#servicos">Serviços</a></li>
+    <li><a href="#cursos">Cursos</a></li>
+    <li><a href="#projetos">Projetos</a></li>
+    <li><a href="#agenda">Agenda</a></li>
+    <li><a href="#docentes">Docentes</a></li>
+    <li><a href="#inclusao">Inclusão Digital</a></li>
+    <li><a href="#seguranca">Segurança</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#home" onclick="closeMobile()">🏠 Home</a>
+  <a href="#institucional" onclick="closeMobile()">🏛 Institucional</a>
+  <a href="#servicos" onclick="closeMobile()">🛠 Serviços</a>
+  <a href="#cursos" onclick="closeMobile()">🎓 Cursos</a>
+  <a href="#projetos" onclick="closeMobile()">💡 Projetos</a>
+  <a href="#agenda" onclick="closeMobile()">📅 Agenda</a>
+  <a href="#docentes" onclick="closeMobile()">👨‍🏫 Docentes</a>
+  <a href="#inclusao" onclick="closeMobile()">🌐 Inclusão Digital</a>
+  <a href="#seguranca" onclick="closeMobile()">🔒 Segurança</a>
+  <a href="#contato" onclick="closeMobile()">📩 Contato</a>
+</div>
+
+<!-- HOME -->
+<section id="home">
+  <div class="home-bg"></div>
+  <div class="home-grid"></div>
+  <div class="home-accent"></div>
+  <div class="home-content section-inner">
+    <div class="home-tag">
+      <span class="dot"></span>
+      Inovação · Tecnologia · Educação
+    </div>
+    <h1>
+      Formando líderes<br>
+      da <span class="accent">era digital</span>
+      <span class="line2">Centro Tecnológico Eduvale — Avaré, SP</span>
+    </h1>
+    <p class="home-sub">
+      Transformando conhecimento em oportunidades para o futuro. O CTE é o espaço dos alunos de ADS da UNEDUVALE, inaugurado em 2026 no coração de Avaré, SP.
+    </p>
+    <div class="btn-group">
+      <a href="#cursos" class="btn-primary">🎓 Conheça os Cursos</a>
+      <a href="#institucional" class="btn-secondary">Saiba mais →</a>
+    </div>
+    <div class="home-stats">
+      <div class="stat"><span class="stat-num">25+</span><span class="stat-label">Anos de Experiência</span></div>
+      <div class="stat"><span class="stat-num">3.000+</span><span class="stat-label">Alunos Formados</span></div>
+      <div class="stat"><span class="stat-num">20+</span><span class="stat-label">Cursos Disponíveis</span></div>
+      <div class="stat"><span class="stat-num">98%</span><span class="stat-label">Aprovação</span></div>
+    </div>
+    <div class="highlights fade-in" style="transition-delay:.3s">
+      <div class="highlight-card">
+        <div class="highlight-icon">🚀</div>
+        <div class="highlight-title">3 Salas Modernas</div>
+        <div class="highlight-text">Salas equipadas com conectividade Wi-Fi otimizada no 2º andar do HVET.</div>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon">👩‍💻</div>
+        <div class="highlight-title">Foco em ADS</div>
+        <div class="highlight-text">Espaço dedicado exclusivamente aos alunos de Análise e Desenvolvimento de Sistemas.</div>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon">🌍</div>
+        <div class="highlight-title">Inclusão Digital</div>
+        <div class="highlight-text">Projetos voltados à capacitação de jovens, adultos e comunidades carentes.</div>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon">📜</div>
+        <div class="highlight-title">UNEDUVALE — Centro Universitário</div>
+        <div class="highlight-text">Portaria MEC nº 1.241 de 30/12/2024: autonomia para criar cursos e expedir diplomas.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INSTITUCIONAL -->
+<section id="institucional">
+  <div class="section-inner">
+    <p class="section-label">Nossa Identidade</p>
+    <h2 class="section-title">Sobre o Centro<br><span>Tecnológico Eduvale</span></h2>
+    <p class="section-desc">Comprometidos com a excelência educacional e o desenvolvimento tecnológico regional há mais de uma década.</p>
+
+    <div class="mvv-grid fade-in">
+      <div class="mvv-card">
+        <div class="mvv-icon">🎯</div>
+        <div class="mvv-title">Missão</div>
+        <div class="mvv-text">Desenvolver e preparar cidadãos aptos profissionalmente, éticos, dinâmicos e comprometidos com a sociedade através de ensino superior de qualidade, colaborando para o real e concreto desenvolvimento socioeconômico regional.</div>
+      </div>
+      <div class="mvv-card">
+        <div class="mvv-icon">🔭</div>
+        <div class="mvv-title">Visão</div>
+        <div class="mvv-text">Consolidar-se como a principal instituição de excelência acadêmica e inovação no interior do estado de São Paulo, sendo reconhecida pela alta empregabilidade de seus egressos e por seu forte vínculo com o desenvolvimento da comunidade local e regional.</div>
+      </div>
+      <div class="mvv-card">
+        <div class="mvv-icon">💎</div>
+        <div class="mvv-title">Valores</div>
+        <div class="mvv-text">Ética e Transparência · Responsabilidade Social · Qualidade e Inovação · Empreendedorismo · Compromisso com a comunidade · Busca constante pela modernização das metodologias de ensino.</div>
+      </div>
+    </div>
+
+    <div class="historico fade-in">
+      <div class="historico-text">
+        <h3>Nossa História</h3>
+        <p><strong>Fundação (1999):</strong> A instituição foi criada em Avaré, São Paulo, iniciando suas atividades como Faculdade Eduvale de Avaré, sob gestão do Grupo JBMS e do presidente mantenedor Dr. Claudio Mansur Salomão.</p>
+        <p><strong>Expansão:</strong> A oferta de graduações cresceu para áreas de Agronomia, Direito, Engenharia, Saúde e Comunicação. Campus com mais de 20.000 m² na Av. Prefeito Misael Eufrásio Leal, com fazenda experimental e laboratórios.</p>
+        <p><strong>Centro Universitário (2024–Presente):</strong> No Jubileu de Prata, a Portaria MEC nº 1.241 (30/12/2024), publicada no DOU em 09/01/2025, transformou oficialmente a instituição em <strong>Centro Universitário Eduvale – UNEDUVALE</strong>, com autonomia para criar cursos e expedir diplomas. Em 2025, novo reposicionamento de marca com novas cores e logotipo.</p>
+        <p><strong>Inauguração do CTE (Janeiro de 2026):</strong> Nasceu o Centro Tecnológico Eduvale, focado nos alunos de ADS, instalado no 2º andar do HVET (Rua Goiás, 1121, centro de Avaré), com três salas de aula modernas e Wi-Fi otimizado.</p>
+      </div>
+      <div class="historico-imgs">
+        <div class="img-placeholder" style="background: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=800&auto=format&fit=crop') center/cover; font-size:0"></div>
+        <div class="img-placeholder" style="background: url('https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=600&auto=format&fit=crop') center/cover; font-size:0"></div>
+        <div class="img-placeholder" style="background: url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=600&auto=format&fit=crop') center/cover; font-size:0"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos">
+  <div class="section-inner">
+    <p class="section-label">O que oferecemos</p>
+    <h2 class="section-title">Nossos <span>Serviços</span></h2>
+    <p class="section-desc">Soluções completas em tecnologia e educação para impulsionar sua carreira e transformar organizações.</p>
+
+    <div class="cards-grid fade-in">
+      <div class="service-card">
+        <div class="service-icon">💻</div>
+        <div class="service-title">Análise e Desenvolvimento de Sistemas</div>
+        <div class="service-desc">Orientação e suporte em tecnologia, desenvolvimento de software e soluções digitais para o mercado.</div>
+        <a href="#cursos" class="btn-card">Saiba mais →</a>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🌐</div>
+        <div class="service-title">Inclusão Digital</div>
+        <div class="service-desc">Projetos sociais voltados à capacitação tecnológica de jovens, adultos e comunidades carentes de Avaré e região.</div>
+        <a href="#inclusao" class="btn-card">Saiba mais →</a>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🏫</div>
+        <div class="service-title">Espaço CTE — 3 Salas Modernas</div>
+        <div class="service-desc">Salas de aula equipadas com conectividade Wi-Fi otimizada no 2º andar do HVET, Rua Goiás, 1121, Avaré.</div>
+        <a href="#contato" class="btn-card">Saiba mais →</a>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🤖</div>
+        <div class="service-title">Projeto Robótica</div>
+        <div class="service-desc">Ensino de robótica para estudantes do ensino médio, desenvolvendo habilidades práticas e pensamento lógico.</div>
+        <a href="#projetos" class="btn-card">Saiba mais →</a>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">📅</div>
+        <div class="service-title">Eventos e Workshops</div>
+        <div class="service-desc">Palestras, workshops e a Feira Tecnológica voltados para educação tecnológica e integração da comunidade.</div>
+        <a href="#agenda" class="btn-card">Saiba mais →</a>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🎓</div>
+        <div class="service-title">Graduação — UNEDUVALE</div>
+        <div class="service-desc">Cursos de graduação reconhecidos pelo MEC em Agronomia, Direito, Engenharia, Saúde, Comunicação e Tecnologia.</div>
+        <a href="#contato" class="btn-card">Saiba mais →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CURSOS -->
+<section id="cursos">
+  <div class="section-inner">
+    <p class="section-label">Formação Profissional</p>
+    <h2 class="section-title">Cursos <span>Disponíveis</span></h2>
+    <p class="section-desc">Escolha o curso ideal para sua carreira. Filtre por categoria e encontre a formação perfeita para você.</p>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" onclick="filtrarCursos('todos', this)">Todos</button>
+      <button class="filter-btn" onclick="filtrarCursos('programacao', this)">Programação</button>
+      <button class="filter-btn" onclick="filtrarCursos('design', this)">Design</button>
+      <button class="filter-btn" onclick="filtrarCursos('informatica', this)">Informática</button>
+    </div>
+
+    <div class="cursos-grid fade-in" id="cursosGrid">
+      <div class="curso-card" data-cat="programacao">
+        <div class="curso-header">
+          <span class="curso-category">Programação</span>
+          <div class="curso-nome">Desenvolvimento Web</div>
+        </div>
+        <div class="curso-body">
+          <p class="curso-desc">HTML, CSS e JavaScript para iniciantes. Aprenda a criar sites e aplicações web do zero com metodologia prática.</p>
+          <div class="curso-meta">
+            <span>⏱ 80h</span>
+            <span>📅 Presencial</span>
+          </div>
+        </div>
+      </div>
+      <div class="curso-card" data-cat="programacao">
+        <div class="curso-header">
+          <span class="curso-category">Programação</span>
+          <div class="curso-nome">Lógica de Programação</div>
+        </div>
+        <div class="curso-body">
+          <p class="curso-desc">Fundamentos da programação e algoritmos. Base essencial para quem está começando na área de tecnologia.</p>
+          <div class="curso-meta">
+            <span>⏱ 50h</span>
+            <span>📅 Presencial</span>
+          </div>
+        </div>
+      </div>
+      <div class="curso-card" data-cat="design">
+        <div class="curso-header">
+          <span class="curso-category">Design</span>
+          <div class="curso-nome">Design Gráfico</div>
+        </div>
+        <div class="curso-body">
+          <p class="curso-desc">Criação de artes digitais e identidade visual. Ferramentas profissionais para o mercado criativo e comunicação.</p>
+          <div class="curso-meta">
+            <span>⏱ 60h</span>
+            <span>📅 Presencial</span>
+          </div>
+        </div>
+      </div>
+      <div class="curso-card" data-cat="informatica">
+        <div class="curso-header">
+          <span class="curso-category">Informática</span>
+          <div class="curso-nome">Informática Básica</div>
+        </div>
+        <div class="curso-body">
+          <p class="curso-desc">Uso do computador e ferramentas digitais do dia a dia. Ideal para quem está dando os primeiros passos na tecnologia.</p>
+          <div class="curso-meta">
+            <span>⏱ 40h</span>
+            <span>📅 Presencial</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJETOS -->
+<section id="projetos">
+  <div class="section-inner">
+    <p class="section-label">Inovação em Prática</p>
+    <h2 class="section-title">Projetos <span>Realizados</span></h2>
+    <p class="section-desc">Conheça os trabalhos desenvolvidos por nossos alunos e parceiros que estão transformando a realidade local.</p>
+
+    <div class="projetos-grid fade-in">
+      <div class="projeto-card">
+        <div class="projeto-img projeto-img-1" style="background: url('https://images.unsplash.com/photo-1516321165247-4aa89a48be28?q=80&w=600&auto=format&fit=crop') center/cover; font-size:0"></div>
+        <div class="projeto-body">
+          <div class="projeto-title">Projeto Robótica</div>
+          <p class="projeto-desc">Ensino de robótica para estudantes do ensino médio, desenvolvendo habilidades práticas, lógica computacional e trabalho em equipe.</p>
+          <a href="#contato" class="link-detalhes">Ver detalhes →</a>
+        </div>
+      </div>
+      <div class="projeto-card">
+        <div class="projeto-img projeto-img-2" style="background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=600&auto=format&fit=crop') center/cover; font-size:0"></div>
+        <div class="projeto-body">
+          <div class="projeto-title">Inclusão Digital — Comunidades</div>
+          <p class="projeto-desc">Capacitação tecnológica para comunidades carentes de Avaré e região, com acesso a computadores e internet banda larga.</p>
+          <a href="#contato" class="link-detalhes">Ver detalhes →</a>
+        </div>
+      </div>
+      <div class="projeto-card">
+        <div class="projeto-img projeto-img-3" style="background: url('https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=600&auto=format&fit=crop') center/cover; font-size:0"></div>
+        <div class="projeto-body">
+          <div class="projeto-title">Projetos Inovadores ADS</div>
+          <p class="projeto-desc">Desenvolvimento de projetos voltados para inovação e inclusão digital pelos alunos do curso de Análise e Desenvolvimento de Sistemas.</p>
+          <a href="#contato" class="link-detalhes">Ver detalhes →</a>
+        </div>
+      </div>
+      <div class="projeto-card">
+        <div class="projeto-img projeto-img-4" style="background: url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=600&auto=format&fit=crop') center/cover; font-size:0"></div>
+        <div class="projeto-body">
+          <div class="projeto-title">Eventos e Workshops Tecnológicos</div>
+          <p class="projeto-desc">Organização de palestras, workshops e feiras tecnológicas voltadas para educação e integração da comunidade acadêmica de Avaré.</p>
+          <a href="#agenda" class="link-detalhes">Ver detalhes →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AGENDA -->
+<section id="agenda">
+  <div class="section-inner">
+    <p class="section-label">Calendário de Eventos</p>
+    <h2 class="section-title">Agenda <span>de Eventos</span></h2>
+    <p class="section-desc">Fique por dentro dos próximos eventos, workshops, palestras e datas importantes do Centro Tecnológico.</p>
+
+    <div class="agenda-list fade-in">
+      <div class="evento-card proximo">
+        <div class="evento-date">
+          <div class="evento-day">25</div>
+          <div class="evento-month">Mai</div>
+        </div>
+        <div class="evento-info">
+          <div class="evento-nome">Workshop de Programação</div>
+          <div class="evento-meta">
+            <span>🕘 19h</span>
+            <span>📍 Auditório Eduvale — Avaré</span>
+          </div>
+        </div>
+        <span class="badge-proximo">Em breve</span>
+      </div>
+      <div class="evento-card proximo">
+        <div class="evento-date">
+          <div class="evento-day">10</div>
+          <div class="evento-month">Jun</div>
+        </div>
+        <div class="evento-info">
+          <div class="evento-nome">Feira Tecnológica</div>
+          <div class="evento-meta">
+            <span>🕘 14h</span>
+            <span>📍 Centro de Eventos — Avaré</span>
+          </div>
+        </div>
+        <span class="badge-proximo">Em breve</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DOCENTES -->
+<section id="docentes">
+  <div class="section-inner">
+    <p class="section-label">Nosso Time</p>
+    <h2 class="section-title">Corpo <span>Docente</span></h2>
+    <p class="section-desc">Profissionais altamente qualificados, com experiência acadêmica e de mercado, prontos para guiar sua formação.</p>
+
+    <div class="docentes-grid fade-in">
+      <div class="docente-card">
+        <div class="docente-avatar" style="background: url('https://randomuser.me/api/portraits/men/32.jpg') center/cover; font-size:0; border:3px solid var(--yellow)"></div>
+        <div class="docente-nome">Prof. Carlos Silva</div>
+        <div class="docente-area">Programação</div>
+        <div class="docente-bio">Especialista em Desenvolvimento Web e Sistemas. Ampla experiência em projetos de software e ensino de programação.</div>
+      </div>
+      <div class="docente-card">
+        <div class="docente-avatar" style="background: url('https://randomuser.me/api/portraits/women/44.jpg') center/cover; font-size:0; border:3px solid var(--yellow)"></div>
+        <div class="docente-nome">Profa. Ana Souza</div>
+        <div class="docente-area">Design</div>
+        <div class="docente-bio">Designer gráfica com experiência em UX/UI. Especialista em criação de identidade visual e interfaces digitais.</div>
+      </div>
+      <div class="docente-card">
+        <div class="docente-avatar" style="background: url('https://randomuser.me/api/portraits/men/55.jpg') center/cover; font-size:0; border:3px solid var(--yellow)"></div>
+        <div class="docente-nome">Prof. João Pereira</div>
+        <div class="docente-area">Redes</div>
+        <div class="docente-bio">Especialista em infraestrutura e segurança digital. Experiência em redes corporativas e proteção de dados.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INCLUSÃO DIGITAL -->
+<section id="inclusao">
+  <div class="section-inner">
+    <p class="section-label">Impacto Social</p>
+    <h2 class="section-title">Inclusão <span>Digital</span></h2>
+    <p class="section-desc">Acreditamos que a tecnologia deve ser acessível a todos. Conheça nossas iniciativas de impacto social.</p>
+
+    <div class="inclusao-grid fade-in">
+      <div class="inclusao-card">
+        <div class="inclusao-icon">🎓</div>
+        <div class="inclusao-title">Aulas Gratuitas</div>
+        <div class="inclusao-desc">Projetos voltados para capacitação de jovens e adultos com cursos gratuitos de informática e tecnologia em Avaré e região.</div>
+        <a href="https://www.gov.br" target="_blank" class="link-externo">Saiba mais ↗</a>
+      </div>
+      <div class="inclusao-card">
+        <div class="inclusao-icon">🤝</div>
+        <div class="inclusao-title">Projetos Sociais</div>
+        <div class="inclusao-desc">Parcerias com instituições para ampliar o acesso à tecnologia, democratizando conhecimento para comunidades carentes.</div>
+        <a href="https://www.unicef.org/brazil" target="_blank" class="link-externo">Saiba mais ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SEGURANÇA -->
+<section id="seguranca">
+  <div class="section-inner">
+    <p class="section-label">Privacidade & Conformidade</p>
+    <h2 class="section-title">Segurança e <span>Privacidade</span></h2>
+    <p class="section-desc">Protegemos seus dados com responsabilidade, transparência e em conformidade com a Lei Geral de Proteção de Dados (LGPD).</p>
+
+    <div class="seguranca-grid fade-in">
+      <div class="seg-block">
+        <h3>🔐 Política de Privacidade</h3>
+        <ul>
+          <li>Coletamos apenas os dados necessários para prestação dos nossos serviços educacionais.</li>
+          <li>Os dados enviados no formulário de contato são utilizados apenas para atendimento, e não são compartilhados com terceiros.</li>
+          <li>Você pode solicitar acesso, correção ou exclusão dos seus dados a qualquer momento.</li>
+          <li>Utilizamos criptografia e protocolos seguros em todas as transmissões de dados.</li>
+          <li>Nossos servidores estão localizados no Brasil e seguem normas nacionais de segurança.</li>
+        </ul>
+      </div>
+      <div class="seg-block">
+        <h3>🛡️ Boas Práticas de Segurança</h3>
+        <ul>
+          <li>Use senhas fortes com letras, números e símbolos para proteger sua conta.</li>
+          <li>Nunca compartilhe suas credenciais de acesso ao portal do aluno.</li>
+          <li>Desconfie de e-mails suspeitos pedindo dados pessoais em nome da Eduvale.</li>
+          <li>Mantenha seu dispositivo e aplicativos sempre atualizados.</li>
+          <li>Em caso de atividade suspeita, entre em contato imediatamente com nossa equipe de TI.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="aviso-lgpd fade-in">
+      <div class="aviso-icon">⚖️</div>
+      <p>
+        <strong>Aviso sobre uso de dados — LGPD (Lei nº 13.709/2018):</strong> O Centro Tecnológico Eduvale respeita a privacidade dos usuários e segue boas práticas de proteção de dados. Os dados enviados pelo formulário de contato são utilizados exclusivamente para fins de atendimento e não são compartilhados com terceiros. Em conformidade com a LGPD, nenhum dado sensível é coletado neste site. Para exercer seus direitos como titular de dados, entre em contato conosco pelo e-mail <strong>contato@eduvale.edu.br</strong>.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato">
+  <div class="section-inner">
+    <p class="section-label">Fale Conosco</p>
+    <h2 class="section-title">Entre em <span>Contato</span></h2>
+    <p class="section-desc">Tem alguma dúvida, sugestão ou quer saber mais sobre nossos cursos? Nossa equipe está pronta para te atender.</p>
+
+    <div class="contato-grid fade-in">
+      <div class="contato-info">
+        <h3>Informações de Contato</h3>
+        <p>Estamos disponíveis de segunda a sexta, das 8h às 22h, e aos sábados das 8h às 12h. Utilize o formulário ou entre em contato pelos canais abaixo.</p>
+        <div class="info-item">
+          <div class="info-icon">📍</div>
+          <span>Rua Goiás, 1121 — Centro, Avaré — SP (2º andar do HVET)</span>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">📞</div>
+          <span>(14) 3711-0000</span>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">📧</div>
+          <span>contato@eduvale.edu.br</span>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">⏰</div>
+          <span>Seg – Sex: 8h às 22h | Sáb: 8h às 12h</span>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <div class="form-group">
+          <label for="nome">Nome completo *</label>
+          <input type="text" id="nome" placeholder="Seu nome completo">
+          <div class="form-error" id="erroNome">Por favor, insira seu nome.</div>
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail *</label>
+          <input type="email" id="email" placeholder="seu@email.com">
+          <div class="form-error" id="erroEmail">Por favor, insira um e-mail válido.</div>
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Mensagem *</label>
+          <textarea id="mensagem" rows="4" placeholder="Escreva sua mensagem aqui..."></textarea>
+          <div class="form-error" id="erroMensagem">Por favor, escreva uma mensagem.</div>
+        </div>
+        <button class="btn-submit" onclick="enviarFormulario()">Enviar mensagem ✉️</button>
+        <div class="success-msg" id="successMsg">✅ Mensagem enviada com sucesso! Entraremos em contato em breve.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">
+      <div class="logo-mark">E</div>
+      <span>Centro Tecnológico Eduvale</span>
+    </div>
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#institucional">Institucional</a>
+      <a href="#cursos">Cursos</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a> 
+      <a href="#seguranca">Privacidade</a>
+    </div>
+  </div>
+  <div class="footer-inner">
+    <p class="footer-copy">© 2026 Centro Tecnológico Eduvale — UNEDUVALE. Todos os direitos reservados. Avaré, SP. Desenvolvido em HTML5, CSS3 e JavaScript.</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
